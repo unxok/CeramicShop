@@ -1,17 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
+* {
+}
+
 body {
   padding: 0;
   margin: 0;
-  background-color: bisque;
+  /* background-color: bisque; */
   font-family: "Open Sans", sans-serif;
   height: 100%;
+  background-image: url(../img/forest_dakIG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*************************/
 
 #page-container {
-  background-color: black;
+  background-color: rgba(255, 255, 255, 0.9);
   height: 100%;
 
   max-width: 800px;
@@ -21,7 +27,7 @@ body {
 /*************************/
 
 #header {
-  background-color: aqua;
+  /*  background-color: aqua; */
 }
 
 #header p {
@@ -33,7 +39,7 @@ body {
 /*************************/
 
 #navbar {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 
   padding: 1%;
   position: sticky;
@@ -44,7 +50,7 @@ body {
 #navbar a {
   text-decoration: none;
   color: black;
-  background-color: bisque;
+  /*  background-color: bisque; */
   padding: 1% 10%;
   margin: 0 auto;
 }
@@ -52,13 +58,13 @@ body {
 /*************************/
 
 #body {
-  background-color: blueviolet;
+  /* background-color: rgba(0, 0, blue, 0.1); */
   height: 1000px;
   padding: 5px;
 }
 
 #body p {
-  background-color: rgb(219, 127, 255);
+  /* background-color: rgb(219, 127, 255); */
   margin: 10px;
   padding: 10px;
 }
@@ -66,7 +72,8 @@ body {
 /*************************/
 
 #footer {
-  background-color: brown;
+  background-color: rgb(15, 12, 12);
+  color: azure;
   padding: 10px;
 }
 
@@ -81,7 +88,7 @@ body {
 }
 
 #footer p {
-  color: gray;
+  /* color: gray; */
   text-align: center;
   margin: 20px auto 10px;
 }
