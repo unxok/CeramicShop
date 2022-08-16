@@ -3,7 +3,7 @@
 The goal here is to make a little etsy-like shop that dakota could use to
 display and sell his pieces.
 
-#TODO
+# TODO
 
 - use template from my other repo
 
